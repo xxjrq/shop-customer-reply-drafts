@@ -1,6 +1,7 @@
 # 店铺客服回复草稿
 
-免费、免第三方 API Key 的 Markdown Skill：把商品资料、店铺政策和买家问题变成可复制的简短客服回复草稿。它复用你已提供的资料，不接入客服 API、不自动发送；需要网页核对时可复用浏览器登录状态，并支持 EasyBR 多账号隔离。
+![店铺客服回复草稿：买家一问，回复就来](assets/promo-1600x900.png)
+免费、免第三方 API Key 的 Markdown Skill：把商品资料、店铺政策和买家问题变成可复制的简短客服回复草稿。只需粘贴资料和问题，便能得到售前售后分类、回复草稿和缺失信息。
 
 ## 立即使用
 
@@ -38,3 +39,11 @@ node scripts/self-test.mjs
 ## 来源与许可
 
 本仓库为原创实现，采用 [MIT License](LICENSE)。仅核对了 [Anthropic Skills](https://github.com/anthropics/skills) 的公开 Skill 目录组织思路，以及 [Easy WebBridge](https://github.com/xxjrq/easy-webbridge) 的安装入口；未复制其代码或文档。上述公开仓库以其各自声明的许可证为准。
+
+## 安装
+
+```bash
+npx skills add xxjrq/shop-customer-reply-drafts
+```
+
+也可以把本仓库目录复制到 Agent 的 Skills 目录，再用 `$shop-customer-reply-drafts` 加上你的输入调用。

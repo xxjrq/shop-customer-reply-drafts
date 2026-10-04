@@ -1,8 +1,8 @@
 name: shop-customer-reply-drafts
 slug: shop-customer-reply-drafts
-version: 1.0.0
+version: 1.0.1
 display_name: 店铺客服回复草稿
-description: 免费、免第三方 API Key：根据商品资料、店铺政策和买家问题生成简短自然的客服回复草稿，标记缺失信息并区分售前售后；可复用浏览器登录状态，支持 EasyBR 多账号隔离，不自动发送也不虚构承诺。
+description: 免费、免第三方 API Key：根据商品资料、店铺政策和买家问题生成简短自然的客服回复草稿，标记缺失信息并区分售前售后；输出可复制的售前售后回复和缺失资料清单，不自动发送或虚构承诺。
 repository: https://github.com/xxjrq/shop-customer-reply-drafts
 license: MIT
 icon: icon-512.png

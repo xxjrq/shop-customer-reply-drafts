@@ -1,6 +1,7 @@
 # Shop Customer Reply Drafts
 
-A free Markdown Skill with no third-party API key required. It turns product facts, store policies, and buyer questions into short, copy-ready customer-service drafts. It does not connect to a customer-service API or send messages. When separately authorized for web verification, it can reuse an existing browser login and keep EasyBR accounts isolated.
+![Shop reply drafts: turn buyer questions into ready-to-copy replies](assets/promo-1600x900.png)
+A free Markdown Skill with no third-party API key required. It turns product facts, store policies, and buyer questions into short, copy-ready customer-service drafts. It does not connect to a customer-service API or send messages. Provide the facts and question to receive a reply draft and a short list of any missing information.
 
 ## What it does
 
@@ -21,3 +22,11 @@ node scripts/self-test.mjs
 ## Attribution and license
 
 This is an original implementation under the [MIT License](LICENSE). It only checked the public Skill directory conventions in [Anthropic Skills](https://github.com/anthropics/skills) and the installation entry point of [Easy WebBridge](https://github.com/xxjrq/easy-webbridge); no code or documentation was copied. Each referenced repository retains its own license.
+
+## Install
+
+```bash
+npx skills add xxjrq/shop-customer-reply-drafts
+```
+
+Alternatively, copy this repository folder into your Agent’s skill directory, then invoke `$shop-customer-reply-drafts` with your input.
